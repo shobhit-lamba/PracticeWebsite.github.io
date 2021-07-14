@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: violet;
+    background-image: url('image/iit kanpur.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.mid {
+    display: inline-block;
+    width: 36%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.navbar {
+    display: inline-block;
+    background-color: hsla(100, 100, 100, 0.75);
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: rgb(221, 17, 17);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
